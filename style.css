@@ -14,3 +14,9 @@ body, html, * {
 .createBtn {
     border-width: 1px;
 }
+.mainBarHead {
+    width: 58%;
+}
+h1 {
+font-size: 2rem;
+}
