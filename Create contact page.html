@@ -28,7 +28,7 @@
           <p class="text-gray-500">PhoneBook</p>
         </div>
 
-        <div
+        <!-- <div
           class="searchBar flex items-center gap-3 bg-gray-200 p-2 rounded-xl w-76 h-10"
         >
           <label for="searchBar"
@@ -50,7 +50,7 @@
             type="text"
             placeholder="Search"
           />
-        </div>
+        </div> -->
 
         <div
           class="createBtn flex p-1 font-bold border-solid border-gray-300 rounded-2xl h-10 w-40 items-center justify-center"
@@ -112,7 +112,7 @@
           />
         </svg>
       </div>
-      <div class="info flex flex-col border-t-2 mt-64">
+      <div id="inputs" class="info flex flex-col border-t-2 mt-64">
         <div class="flex mt-8 items-center gap-4">
           <label for="addNameBar">
             <svg
@@ -128,7 +128,7 @@
               />
             </svg>
           </label>
-          <input
+          <input id="nameInput"
             class="addNameBar p-2 border-b w-96"
             type="text"
             placeholder="Name"
@@ -150,20 +150,22 @@
               />
             </svg>
           </label>
-          <input
+          <input id="phoneNumberInput"
             class="addNameBar p-2 border-b w-96"
             type="text"
             placeholder="Phone Number"
           />
         </div>
         <div class="flex mt-10">
-          <button
+          <button id="addBtn"
             class="bg-black text-white font-semibold w-28 h-12 rounded-xl"
           >
-            Create
+            add
           </button>
         </div>
       </div>
     </div>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

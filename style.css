@@ -20,3 +20,6 @@ body, html, * {
 h1 {
 font-size: 2rem;
 }
+#mainBar {
+    width: 58%;
+}
